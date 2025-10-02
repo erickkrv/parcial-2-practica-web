@@ -1,5 +1,5 @@
 
-function errorHandler(err, req, res, next) {
+function errorHandler(err, req, res) {
 
     res.status(500).json({
         error: "Error interno del servidor. Inténtalo más tarde."
